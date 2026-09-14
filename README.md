@@ -2,6 +2,8 @@
 
 Ein interaktiver, responsiver Web-MVP für eine KI-gestützte Interior-Design-Plattform. Der Prototyp zeigt den vollständigen Kern-Flow von der Raumerfassung über Stil und Budget bis zur editierbaren Visualisierung und shopübergreifenden Einkaufsliste.
 
+Das mobile **Surface Studio** unter `surface-studio.html` fokussiert den ersten vertikalen Anwendungsfall: Boden, Wände und Decke im eigenen Foto visualisieren, Mengen kalkulieren und ein unverbindliches Estimate teilen.
+
 ## Enthalten
 
 - Landingpage mit B2C- und B2B2C-Positionierung
@@ -12,6 +14,10 @@ Ein interaktiver, responsiver Web-MVP für eine KI-gestützte Interior-Design-Pl
 - Optionaler Human-in-the-loop Designer-Check
 - Pro-Bereich für Makler, Projektentwickler und Interior Studios
 - Responsive Darstellung und reduzierte Animationen für `prefers-reduced-motion`
+- Mobiles Surface Studio für iPhone/Safari mit Kamera- bzw. Foto-Upload
+- Separat auswählbare Materialien für Boden, Wände und Decke
+- Manuelles Raummaß, Verschnitt, Materialbedarf und optionale Demo-Arbeitskosten
+- Teilbares Estimate und lokal gespeicherte Varianten
 
 ## Lokal starten
 
