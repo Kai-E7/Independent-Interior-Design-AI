@@ -1,0 +1,378 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#153b32" />
+    <meta
+      name="description"
+      content="raumly erstellt aus Fotos und Grundriss in wenigen Minuten ein realistisches, direkt kaufbares Raumkonzept."
+    />
+    <title>raumly — Dein Raum. Neu gedacht.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" id="top">
+      <a class="brand" href="#top" aria-label="raumly Startseite">
+        <span class="brand-mark" aria-hidden="true"></span>
+        <span>raumly</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Hauptnavigation">
+        <a href="#so-funktionierts">So funktioniert’s</a>
+        <a href="#studio">Live-Demo</a>
+        <a href="#shopping">Shop the room</a>
+        <button class="nav-link" data-partner-open>Für Profis</button>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button cart-button" data-cart-open aria-label="Warenkorb öffnen">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.4 10.1a2 2 0 0 0 1.9 1.5h7.9a2 2 0 0 0 1.9-1.4L21 8H7"/><circle cx="10" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+          <span class="cart-count" data-cart-count>0</span>
+        </button>
+        <button class="button button-small button-dark" data-scan-open>Raum starten</button>
+        <button class="mobile-menu" aria-label="Menü öffnen" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-shell">
+        <div class="hero-copy reveal">
+          <div class="eyebrow"><span></span> Interior Design mit KI</div>
+          <h1>Dein Raum.<br /><em>Neu gedacht.</em></h1>
+          <p class="hero-lead">
+            Fotografieren, Stil wählen, einziehen: raumly verwandelt deinen echten Raum in ein
+            maßstabsgetreues Einrichtungskonzept – mit Möbeln, die du direkt kaufen kannst.
+          </p>
+          <div class="hero-actions">
+            <button class="button button-primary" data-scan-open>
+              Raum kostenlos scannen
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+            </button>
+            <button class="text-button" data-demo-scroll>
+              <span class="play-icon">▶</span> Demo ansehen <small>1:12 Min.</small>
+            </button>
+          </div>
+          <div class="trust-row">
+            <div class="avatars" aria-hidden="true">
+              <span>LM</span><span>SK</span><span>JF</span>
+            </div>
+            <div><strong>4,9/5</strong><br /><span>von 2.400+ Raumideen</span></div>
+            <div class="stars" aria-label="5 von 5 Sternen">★★★★★</div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <img src="assets/living-room-designed.webp" alt="Von raumly eingerichtetes helles Berliner Wohnzimmer" />
+          <div class="scan-corners" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div class="floating-badge badge-scan">
+            <span class="pulse-dot"></span>
+            <div><strong>Raum erkannt</strong><small>24,6 m² · 98% sicher</small></div>
+          </div>
+          <div class="floating-badge badge-budget">
+            <span class="round-icon">€</span>
+            <div><strong>Im Budget</strong><small>3.842 € von 4.500 €</small></div>
+          </div>
+          <button class="hotspot hero-hotspot" aria-label="Sofa ansehen" data-product-focus="sofa">
+            <span>+</span><b>Modulares Sofa<br /><small>1.499 €</small></b>
+          </button>
+        </div>
+      </section>
+
+      <section class="logo-strip" aria-label="Unterstützte Einrichtungsshops">
+        <span>Produkte von</span>
+        <strong>IKEA</strong><strong>Westwing</strong><strong>home24</strong><strong>HAY</strong><strong>bolia</strong>
+        <span class="plus-shops">+ 120 Shops</span>
+      </section>
+
+      <section class="process section-shell" id="so-funktionierts">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">In drei Schritten</span>
+            <h2>Von leer zu <em>lebenswert.</em></h2>
+          </div>
+          <p>Kein Maßband-Chaos, keine wochenlange Planung. Dein erster Entwurf ist in wenigen Minuten bereit.</p>
+        </div>
+        <div class="steps-grid">
+          <article class="step reveal">
+            <span class="step-number">01</span>
+            <div class="step-icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="5" y="4" width="22" height="24" rx="4"/><path d="M10 10h2M20 10h2M10 22h2M20 22h2M13 16h6"/></svg>
+            </div>
+            <h3>Raum erfassen</h3>
+            <p>Fotografiere deinen Raum oder lade Fotos und einen vorhandenen Grundriss hoch.</p>
+            <small>≈ 2 Minuten</small>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">02</span>
+            <div class="step-icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 4v24M4 16h24M8 8l16 16M24 8 8 24"/><circle cx="16" cy="16" r="10"/></svg>
+            </div>
+            <h3>KI gestaltet</h3>
+            <p>Wähle Stil, Bedürfnisse und Budget. Unsere KI erstellt passende, editierbare Varianten.</p>
+            <small>≈ 45 Sekunden</small>
+          </article>
+          <article class="step reveal">
+            <span class="step-number">03</span>
+            <div class="step-icon">
+              <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M5 7h3l3 13h12l3-9H10M13 26h.1M22 26h.1"/></svg>
+            </div>
+            <h3>Erleben & kaufen</h3>
+            <p>Sieh alles im Raum, tausche Produkte aus und kaufe deine Auswahl bei Partner-Shops.</p>
+            <small>Du entscheidest</small>
+          </article>
+        </div>
+      </section>
+
+      <section class="studio-section" id="studio">
+        <div class="section-shell">
+          <div class="section-heading studio-heading reveal">
+            <div>
+              <span class="section-kicker light">Live-Raumstudio</span>
+              <h2>Probier es <em>direkt aus.</em></h2>
+            </div>
+            <p>Ziehe den Regler und vergleiche den leeren Raum mit dem KI-Konzept.</p>
+          </div>
+          <div class="studio-app reveal">
+            <div class="studio-toolbar">
+              <div class="project-name">
+                <span class="status-dot"></span>
+                <div><strong>Wohnzimmer Altbau</strong><small>Berlin · 24,6 m²</small></div>
+              </div>
+              <div class="view-switch" role="group" aria-label="Ansicht wechseln">
+                <button class="active" data-view="visual">Visualisierung</button>
+                <button data-view="floor">Grundriss</button>
+              </div>
+              <button class="share-button" data-share>
+                <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="18" cy="5" r="2"/><circle cx="6" cy="12" r="2"/><circle cx="18" cy="19" r="2"/><path d="m8 11 8-5M8 13l8 5"/></svg>
+                Teilen
+              </button>
+            </div>
+            <div class="studio-workspace">
+              <div class="visualizer" data-visualizer>
+                <img class="after-image" src="assets/living-room-designed.webp" alt="Eingerichtetes Wohnzimmer" />
+                <div class="before-layer" data-before-layer>
+                  <img src="assets/living-room-empty.webp" alt="Leeres Wohnzimmer vor der Einrichtung" />
+                </div>
+                <div class="compare-line" data-compare-line><span>↔</span></div>
+                <input class="compare-range" type="range" min="0" max="100" value="46" aria-label="Vorher-Nachher-Vergleich" />
+                <span class="compare-label before-label">Vorher</span>
+                <span class="compare-label after-label">Nachher</span>
+                <button class="room-hotspot sofa-spot active" data-product-focus="sofa" aria-label="Sofa auswählen">+</button>
+                <button class="room-hotspot chair-spot" data-product-focus="chair" aria-label="Sessel auswählen">+</button>
+                <button class="room-hotspot table-spot" data-product-focus="table" aria-label="Tisch auswählen">+</button>
+                <div class="floorplan-view" data-floorplan>
+                  <svg viewBox="0 0 700 440" role="img" aria-label="Grundriss des Wohnzimmers">
+                    <rect x="110" y="50" width="480" height="330" rx="2" />
+                    <path d="M220 50v70M380 50v70M110 270h70M590 210h-70" />
+                    <path class="furniture" d="M290 100h190v80H290zM325 230h115v65H325zM155 105h70v120h-70z" />
+                    <path class="arc" d="M110 270a70 70 0 0 1 70 70M590 210a70 70 0 0 0-70 70" />
+                    <text x="330" y="360">5,92 m</text><text x="78" y="225" transform="rotate(-90 78 225)">4,16 m</text>
+                  </svg>
+                  <div><strong>24,6 m²</strong><span>Raumhöhe 3,08 m</span></div>
+                </div>
+              </div>
+              <aside class="studio-panel">
+                <div class="panel-tabs">
+                  <button class="active" data-panel-tab="style">Stil</button>
+                  <button data-panel-tab="products">Produkte <span>7</span></button>
+                </div>
+                <div class="panel-content" data-panel="style">
+                  <p class="panel-label">Dein Raumkonzept</p>
+                  <h3>Warm Minimal</h3>
+                  <div class="palette"><i style="--c:#e8ddcd"></i><i style="--c:#c49662"></i><i style="--c:#64634c"></i><i style="--c:#292d28"></i></div>
+                  <div class="concept-score"><span>Stil-Match</span><strong>94%</strong><div><i></i></div></div>
+                  <p class="panel-label">Andere Richtungen</p>
+                  <div class="style-options">
+                    <button class="style-option active" data-style="Warm Minimal" data-budget="3842"><span class="style-swatch warm"></span><b>Warm Minimal</b><small>Ausgewählt</small></button>
+                    <button class="style-option" data-style="Nordic Soft" data-budget="3260"><span class="style-swatch nordic"></span><b>Nordic Soft</b><small>7 Produkte</small></button>
+                    <button class="style-option" data-style="Urban Earth" data-budget="4115"><span class="style-swatch earth"></span><b>Urban Earth</b><small>8 Produkte</small></button>
+                  </div>
+                  <button class="button button-outline full-width" data-variant>Neue Variante erstellen</button>
+                </div>
+                <div class="panel-content hidden" data-panel="products">
+                  <p class="panel-label">Im Konzept</p>
+                  <div class="mini-product-list" data-mini-products></div>
+                </div>
+                <div class="budget-footer">
+                  <div><span>Gesamtbudget</span><strong data-studio-total>3.842 €</strong></div>
+                  <div class="budget-track"><i></i></div>
+                  <small>658 € unter deinem Limit</small>
+                </div>
+              </aside>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="shopping section-shell" id="shopping">
+        <div class="section-heading reveal">
+          <div>
+            <span class="section-kicker">Dein Konzept. Deine Wahl.</span>
+            <h2>Shop the <em>room.</em></h2>
+          </div>
+          <p>Alle Empfehlungen passen zu deinen Maßen, deinem Stil und zueinander. Du kaufst nur, was du wirklich willst.</p>
+        </div>
+        <div class="shop-toolbar reveal">
+          <div class="filter-pills" role="group" aria-label="Produkte filtern">
+            <button class="active" data-filter="all">Alle <span>7</span></button>
+            <button data-filter="möbel">Möbel</button>
+            <button data-filter="licht">Licht</button>
+            <button data-filter="deko">Deko</button>
+          </div>
+          <button class="list-button" data-add-all>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10"/></svg>
+            Alles zur Liste
+          </button>
+        </div>
+        <div class="product-grid" data-product-grid></div>
+        <div class="shop-summary reveal">
+          <div><span>Kompletter Raum</span><strong>7 Produkte · 3 Shops</strong></div>
+          <div><span>Gesamt</span><strong data-shop-total>3.842 €</strong></div>
+          <button class="button button-primary" data-add-all>Kompletten Look sichern</button>
+        </div>
+      </section>
+
+      <section class="human-review">
+        <div class="section-shell review-inner reveal">
+          <div class="review-copy">
+            <span class="section-kicker light">KI, wenn du willst. Mensch, wenn du brauchst.</span>
+            <h2>Noch ein gutes Gefühl <em>obendrauf.</em></h2>
+            <p>Unsere geprüften Interior Designer checken auf Wunsch deinen Entwurf, optimieren Laufwege und beantworten deine Fragen persönlich.</p>
+            <button class="button button-light" data-review>Designer-Check hinzufügen · 49 €</button>
+          </div>
+          <div class="review-card">
+            <div class="review-avatar">MH</div>
+            <div><span class="online-dot"></span><small>Designer-Check abgeschlossen</small><h3>„Der Entwurf nutzt das Licht wirklich gut. Ich würde nur den Sessel um 15° drehen – dann öffnet sich der Laufweg.“</h3><p>Marie H. · Interior Designerin</p></div>
+            <span class="quote-mark">“</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="pro-section section-shell" id="profis">
+        <div class="pro-card reveal">
+          <div>
+            <span class="section-kicker">raumly pro</span>
+            <h2>Räume verkaufen sich<br /><em>besser eingerichtet.</em></h2>
+            <p>Für Makler, Projektentwickler und Interior Studios: Aus leerstehenden Objekten werden in Minuten emotionale, shoppable Wohnwelten.</p>
+            <div class="pro-points"><span>✓ White-Label Exposés</span><span>✓ Team-Workspaces</span><span>✓ Affiliate-Umsatz</span></div>
+            <button class="button button-dark" data-partner-open>Partner-Demo anfragen</button>
+          </div>
+          <div class="pro-dashboard">
+            <div class="dash-head"><strong>Portfolio</strong><span>September 2026</span></div>
+            <div class="metric-row"><div><small>Aktive Objekte</small><strong>24</strong><span>+6 diesen Monat</span></div><div><small>Visualisierungen</small><strong>186</strong><span>↑ 18,2%</span></div></div>
+            <div class="chart" aria-label="Steigende Nutzungskurve"><i style="--h:30%"></i><i style="--h:46%"></i><i style="--h:38%"></i><i style="--h:66%"></i><i style="--h:58%"></i><i style="--h:82%"></i><i style="--h:96%"></i></div>
+            <div class="dash-foot"><span><i></i> Conversion</span><strong>11,8%</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta section-shell reveal">
+        <span class="section-kicker">Bereit für einen neuen Blick?</span>
+        <h2>Dein Lieblingsraum ist<br />nur ein Foto entfernt.</h2>
+        <button class="button button-primary" data-scan-open>Jetzt kostenlos gestalten <span>→</span></button>
+        <small>Keine Kreditkarte · Erster Entwurf kostenlos</small>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-inner section-shell">
+        <div><a class="brand footer-brand" href="#top"><span class="brand-mark"></span><span>raumly</span></a><p>Räume, die zu dir passen.</p></div>
+        <div class="footer-links"><a href="#so-funktionierts">So funktioniert’s</a><a href="#studio">Demo</a><a href="#profis">Für Profis</a><button data-info="Datenschutz">Datenschutz</button><button data-info="Impressum">Impressum</button></div>
+        <span>© 2026 raumly · Made in Berlin</span>
+      </div>
+    </footer>
+
+    <div class="modal-backdrop" data-scan-modal aria-hidden="true">
+      <section class="modal scan-modal" role="dialog" aria-modal="true" aria-labelledby="scan-title">
+        <button class="modal-close" data-modal-close aria-label="Dialog schließen">×</button>
+        <div class="scan-sidebar">
+          <a class="brand"><span class="brand-mark"></span><span>raumly</span></a>
+          <p>Dein Raum in vier einfachen Schritten.</p>
+          <ol>
+            <li class="active" data-step-indicator="1"><span>1</span><div><b>Raum erfassen</b><small>Fotos & Grundriss</small></div></li>
+            <li data-step-indicator="2"><span>2</span><div><b>Maße prüfen</b><small>Für echten Maßstab</small></div></li>
+            <li data-step-indicator="3"><span>3</span><div><b>Stil wählen</b><small>Was zu dir passt</small></div></li>
+            <li data-step-indicator="4"><span>4</span><div><b>Budget setzen</b><small>Damit alles passt</small></div></li>
+          </ol>
+          <div class="privacy-note"><span>⌁</span><div><b>Deine Daten bleiben privat.</b><small>Fotos werden verschlüsselt verarbeitet.</small></div></div>
+        </div>
+        <div class="scan-content">
+          <div class="scan-progress"><i></i></div>
+          <div class="scan-step active" data-step="1">
+            <span class="section-kicker">Schritt 1 von 4</span>
+            <h2 id="scan-title">Zeig uns deinen Raum.</h2>
+            <p>3–6 Fotos aus verschiedenen Ecken reichen. Ein Grundriss macht das Ergebnis noch genauer.</p>
+            <label class="drop-zone" data-drop-zone>
+              <input type="file" multiple accept="image/*,.pdf" data-room-files />
+              <span class="upload-icon"><svg viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M5 20h14"/></svg></span>
+              <strong>Fotos hier ablegen</strong>
+              <small>oder klicken zum Auswählen · JPG, PNG, HEIC bis 20 MB</small>
+              <button type="button">Dateien auswählen</button>
+            </label>
+            <div class="file-list" data-file-list></div>
+            <label class="floorplan-upload"><span>⌗</span><div><b>Grundriss vorhanden?</b><small>Optional als Foto oder PDF hochladen</small></div><input type="file" accept="image/*,.pdf" data-floorplan-file /><em data-floorplan-label>Hochladen</em></label>
+          </div>
+          <div class="scan-step" data-step="2">
+            <span class="section-kicker">Schritt 2 von 4</span><h2>Einmal kurz nachmessen.</h2><p>Wir haben Maße aus deinen Fotos geschätzt. Prüfe sie für ein maßstabsgetreues Ergebnis.</p>
+            <div class="measurement-visual"><svg viewBox="0 0 480 220"><path d="M70 45h340v130H70z"/><path d="M105 45v35M350 45v35M70 140h55"/><path class="measure" d="M75 195h330M52 50v120"/><text x="208" y="213">5,92 m</text><text x="27" y="120" transform="rotate(-90 27 120)">4,16 m</text></svg><span>KI erkannt · 96%</span></div>
+            <div class="input-grid"><label>Länge <div><input type="number" value="5.92" step="0.01" /><span>m</span></div></label><label>Breite <div><input type="number" value="4.16" step="0.01" /><span>m</span></div></label><label>Raumhöhe <div><input type="number" value="3.08" step="0.01" /><span>m</span></div></label><label>Raumtyp <select><option>Wohnzimmer</option><option>Schlafzimmer</option><option>Esszimmer</option><option>Homeoffice</option></select></label></div>
+          </div>
+          <div class="scan-step" data-step="3">
+            <span class="section-kicker">Schritt 3 von 4</span><h2>Was fühlt sich nach dir an?</h2><p>Wähle bis zu drei Stilrichtungen. Du kannst sie später jederzeit ändern.</p>
+            <div class="style-picker">
+              <button class="selected"><span class="pick-img warm"></span><b>Warm Minimal</b><small>Ruhig · Natürlich</small><i>✓</i></button>
+              <button><span class="pick-img nordic"></span><b>Nordic Soft</b><small>Hell · Gemütlich</small><i>✓</i></button>
+              <button><span class="pick-img earth"></span><b>Urban Earth</b><small>Markant · Warm</small><i>✓</i></button>
+              <button><span class="pick-img classic"></span><b>New Classic</b><small>Elegant · Zeitlos</small><i>✓</i></button>
+            </div>
+            <div class="advanced-preferences">
+              <div><span>Feinschliff</span><small>Optional · Mehrfachauswahl</small></div>
+              <div class="preference-chips">
+                <button class="selected">◫ Fotowinkel beibehalten</button>
+                <button>☀ Tageslicht optimieren</button>
+                <button>▤ Versteckter Stauraum</button>
+                <button>⌂ Mietfreundlich</button>
+              </div>
+            </div>
+          </div>
+          <div class="scan-step" data-step="4">
+            <span class="section-kicker">Schritt 4 von 4</span><h2>Was darf dein Raum kosten?</h2><p>Wir kombinieren passende Produkte shopübergreifend – innerhalb deines Rahmens.</p>
+            <div class="budget-box"><div><span>Mein Gesamtbudget</span><output data-budget-output>4.500 €</output></div><input type="range" min="1000" max="15000" step="250" value="4500" data-budget-range /><div class="range-labels"><span>1.000 €</span><span>15.000 €+</span></div></div>
+            <label class="keep-furniture"><input type="checkbox" checked /><span></span><div><b>Vorhandene Möbel integrieren</b><small>Die KI erkennt und berücksichtigt Stücke, die bleiben sollen.</small></div></label>
+            <div class="custom-wish">
+              <label for="custom-wish">Was ist dir noch wichtig?</label>
+              <textarea id="custom-wish" rows="2" placeholder="z. B. Klavier behalten, mehr Stauraum, warme Abendbeleuchtung …"></textarea>
+            </div>
+            <div class="plan-summary"><span>✓</span><div><b>Alles bereit für deinen ersten Entwurf</b><small>Wohnzimmer · Warm Minimal · bis 4.500 €</small></div></div>
+          </div>
+          <div class="scan-actions"><button class="button button-ghost hidden" data-scan-back>Zurück</button><button class="button button-primary" data-scan-next>Weiter <span>→</span></button></div>
+        </div>
+      </section>
+    </div>
+
+    <div class="modal-backdrop" data-partner-modal aria-hidden="true">
+      <section class="modal partner-modal" role="dialog" aria-modal="true" aria-labelledby="partner-title">
+        <button class="modal-close" data-modal-close aria-label="Dialog schließen">×</button>
+        <span class="section-kicker">raumly pro</span><h2 id="partner-title">Mehr Wirkung pro Objekt.</h2><p>Erzähl uns kurz, wie du raumly einsetzen möchtest. Wir melden uns mit einer passenden Partner-Demo.</p>
+        <form data-partner-form><div class="input-grid"><label>Name<input required placeholder="Vor- und Nachname" /></label><label>Business-E-Mail<input required type="email" placeholder="name@unternehmen.de" /></label><label>Unternehmen<input required placeholder="Unternehmensname" /></label><label>Ich bin …<select><option>Makler:in</option><option>Interior Designer:in</option><option>Projektentwickler:in</option><option>Möbelhändler / Marke</option></select></label></div><label>Geplante Projekte pro Monat<select><option>1–10</option><option>11–50</option><option>51–200</option><option>Mehr als 200</option></select></label><button class="button button-primary full-width" type="submit">Partner-Demo anfragen</button></form>
+      </section>
+    </div>
+
+    <aside class="cart-drawer" data-cart-drawer aria-hidden="true">
+      <div class="cart-head"><div><span class="section-kicker">Deine Auswahl</span><h2>Shopping-Liste</h2></div><button data-cart-close aria-label="Warenkorb schließen">×</button></div>
+      <div class="cart-items" data-cart-items></div>
+      <div class="cart-empty" data-cart-empty><span>◇</span><h3>Noch ist deine Liste leer.</h3><p>Füge Produkte aus deinem Raumkonzept hinzu.</p></div>
+      <div class="cart-footer"><div><span>Gesamtsumme</span><strong data-cart-total>0 €</strong></div><small>Du bestellst sicher bei den jeweiligen Partner-Shops.</small><button class="button button-primary full-width" data-checkout>Bei Partnern bestellen</button></div>
+    </aside>
+    <div class="drawer-backdrop" data-drawer-backdrop></div>
+    <div class="toast" role="status" aria-live="polite" data-toast></div>
+    <script src="app.js"></script>
+  </body>
+</html>
